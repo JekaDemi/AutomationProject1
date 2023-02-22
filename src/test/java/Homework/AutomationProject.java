@@ -13,7 +13,7 @@ import static org.testng.Assert.assertTrue;
 
 public class AutomationProject {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws InterruptedException {
 
         //1. navigate to //http://duotify.us-east-2.elasticbeanstalk.com/register.php
         WebDriver driver = new ChromeDriver();
